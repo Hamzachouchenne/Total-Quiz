@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="166dp"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:padding="16dp"
+        android:shadowColor="#666666"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Choose the quizz category !!"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="365dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/movies"
+            android:layout_width="164dp"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="177dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="73dp"
+            android:background="@drawable/movies_category"
+            android:text="Movies"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="10pt"/>
+
+        <Button
+            android:id="@+id/sports"
+            android:layout_width="164dp"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginEnd="196dp"
+            android:layout_marginBottom="74dp"
+            android:background="@drawable/logo_category"
+            android:text="sports"
+            android:textSize="10pt"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/logos"
+            android:layout_width="164dp"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="199dp"
+            android:layout_marginBottom="214dp"
+            android:background="@drawable/sports_category"
+            android:text="logos"
+            android:textSize="10pt"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/music"
+            android:layout_width="164dp"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="197dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="211dp"
+            android:background="@drawable/music_category"
+            android:text="music"
+            android:textStyle="italic|bold"
+            android:textSize="10pt"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

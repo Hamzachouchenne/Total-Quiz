@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#3F51B5"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintHeight="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1pt"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="23dp"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="@color/white"
+        android:textSize="20pt"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="23dp"
+
+            android:text="Total quiz is a game that has sports, movies, logos, and music as categories would be an exciting and engaging game for people who love to test their knowledge in these areas. The game would consist of multiple-choice questions related to sports, movies, logos, and music, and players would need to answer them correctly to advance to the next level."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="12pt"></TextView>
+</LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
