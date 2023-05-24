@@ -47,7 +47,7 @@ public class QuestionAnswer {
             "Who won the FIFA World Cup Qatar 2022?" ,
             "Who is the all-time leading scorer in NBA history?" ,
             "Which country will host the summer olympics 2024" ,
-            "Which football club has the most europien champions league?" ,
+            "Which football club has the most europian champions leagues?" ,
             "Which country hosted the FIFA word cup 2018?" ,
             "Who holds the record for the most goals scored in a single FIFA World Cup tournament?" ,
             "Who won the NBA championship in 2021?" ,

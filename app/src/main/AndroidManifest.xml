@@ -12,6 +12,12 @@
         android:theme="@style/Theme.MyQuizz2"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -65,8 +71,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myquizz2.sport" />
-
+        <activity android:name=".sport" />
     </application>
 
 </manifest>

@@ -40,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Which company has this logo ?"
+        android:text="this logo refers to :"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24dp"

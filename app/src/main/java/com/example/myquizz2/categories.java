@@ -8,16 +8,19 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class categories extends AppCompatActivity{
     Button music;
     Button sport;
     Button logos;
     Button movies;
+
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categories_tab);
-
         music = (Button) findViewById(R.id.music);
         music.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -56,7 +56,7 @@ public class logo extends AppCompatActivity implements View.OnClickListener{
             selectedAnswer = answer.getText().toString();
 
             if (clickbutton.getId() == R.id.submit_btn) {
-                if (selectedAnswer != ""){
+                if (!selectedAnswer.isEmpty()){
 
                     if (selectedAnswer.toLowerCase().equals(QuestionAnswer.correctAnswerForLogo[currentQuestionIndex].toLowerCase())) {
                         score++;
